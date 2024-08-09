@@ -9,7 +9,7 @@
  */
 export function transformLength (string) {
     // Check if the length of the string is within the valid range
-    if (string.length >=0 && string.length <=2500){
+    if (string.length >=2 && string.length <=2500){
         //Check if the length of the string is even
     if (string.length % 2 === 0){
         return 1;
@@ -18,8 +18,20 @@ export function transformLength (string) {
         return -1;
     }
   } else {
-    throw new Error("string length is not in the valid range of (0-2,500)");
+    throw new Error("string length is not in the valid range of (2-2500)");
   }
 }
 
-//Make a function where 
+//Make a function where
+
+export function numberToColour(rainbow){
+    let colours = [["red", 1],
+                  ["orange", 2],
+                ["yellow", 3],
+           ]
+           
+           return rainbow
+           
+        }
+        console.log(rainbow)
+    
