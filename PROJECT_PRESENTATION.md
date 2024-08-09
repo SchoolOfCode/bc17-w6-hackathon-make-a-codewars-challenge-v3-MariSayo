@@ -65,3 +65,9 @@ Please create the rainbow colours using an array but then remove indigo because 
 - please also return the **originalLength** and return the **finalLength** of your array!''
 
 I WANT TO MAKE IT CLEAR THAT I THINK INDIGO IS A COLOUR OF THE RAINBOW ITS JUST THIS IS THE ONLY IDEA I HAD
+
+
+ 
+  
+
+  

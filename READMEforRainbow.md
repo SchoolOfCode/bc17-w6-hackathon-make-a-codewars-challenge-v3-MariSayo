@@ -59,3 +59,17 @@ function rainbowColour() {
 }
 ```
 
+
+```  Hints to help ```
+    - check that indigo is in the aray after the array is created **originalLength**
+    - This length should be 7
+    - after removing indigo check that the **finalLength** is correct
+    - This length should be 6.
+   
+    - Your return should look like this:
+    return {rainbowString,
+      originalLength,
+      finalLength,
+    };
+  
+
